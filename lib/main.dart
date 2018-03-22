@@ -1,14 +1,17 @@
 import 'package:flutter/material.dart';
 import 'hello.dart';
+import 'flutter23.dart';
+
+void main() => flutter23();
 
 
-void main1() {
-  runApp(
-    new Center(
-      child: new MyApp(),
-    ),
-  );
-}
+// void main() {
+//   runApp(
+//     new Center(
+//       child: new MyApp(),
+//     ),
+//   );
+// }
 
 class MyApp extends StatelessWidget
 {

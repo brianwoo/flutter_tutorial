@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 
+void flutter23() => runApp(new MyApp());
+
 void main() => runApp(new MyApp());
 
 // Will not change
@@ -9,8 +11,6 @@ class MyApp extends StatefulWidget
   @override
   _MyAppState createState() => new _MyAppState();
 }
-
-
 
 
 // Will change
@@ -31,7 +31,6 @@ class _MyAppState extends State<MyApp>
     print(message);
 
   }
-
 
 
   @override
