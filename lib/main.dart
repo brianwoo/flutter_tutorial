@@ -14,13 +14,58 @@ class MyApp extends StatelessWidget
   Widget build(BuildContext context)
   {
     return new MaterialApp(
-      title: "Hello Flutter",
+      title: "Basic Layouts",
       home: new Scaffold(
-        appBar: new AppBar(title: new Text("Hello Brian!")),
-        body: new Center(
-          child: new RaisedButton(onPressed: null, child: new Text("My Button"))
-        ),
-      ),
+        appBar: new AppBar(title: new Text("Basic Layouts")),
+        body: new Container(
+          padding: const EdgeInsets.all(32.0),
+          child: new Center(
+            child: new Column(
+              children: <Widget>[
+                new Text('hello'),
+                new Text('world'),
+                new Text('!!!'),
+                new Row(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    new Container(
+                      padding: const EdgeInsets.all(5.0),
+                      child: new Column(
+                        children: <Widget>[
+                          new Text('hello'),
+                          new Text('world'),
+                          new Text('!!!')
+                        ],
+                      )
+                    ),
+                    new Container(
+                        padding: const EdgeInsets.all(5.0),
+                        child: new Column(
+                          children: <Widget>[
+                            new Text('hello'),
+                            new Text('world'),
+                            new Text('!!!')
+                          ],
+                        )
+                    ),
+                    new Container(
+                        padding: const EdgeInsets.all(5.0),
+                        child: new Column(
+                          children: <Widget>[
+                            new Text('hello'),
+                            new Text('world'),
+                            new Text('!!!')
+                          ],
+                        )
+                    )
+                  ],
+                )
+              ]
+            )
+          )
+        )
+      )
     );
   }
 }
