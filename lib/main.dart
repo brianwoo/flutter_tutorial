@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'hello.dart';
 
 
-void main() {
+void main1() {
   runApp(
     new Center(
       child: new MyApp(),
