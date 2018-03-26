@@ -9,6 +9,7 @@ import 'package:flutter_tutorial/flutter28_textfield/textfield.dart' as textFiel
 import 'package:flutter_tutorial/flutter29_checkbox/checkbox.dart' as checkboxDemo;
 import 'package:flutter_tutorial/flutter30_radio/radio.dart' as radioDemo;
 import 'package:flutter_tutorial/flutter31_switch_widget/switchWidget.dart' as switchWidgetDemo;
+import 'package:flutter_tutorial/flutter32_slider/slider.dart' as slideDemo;
 
 
 // void main() => flutter23();
@@ -19,7 +20,8 @@ import 'package:flutter_tutorial/flutter31_switch_widget/switchWidget.dart' as s
 // void main() => textFieldDemo.flutter_TextField();
 // void main() => checkboxDemo.flutter_checkbox();
 // void main() => radioDemo.flutter_radio();
-void main() => switchWidgetDemo.flutter_switchWidgetDemo();
+// void main() => switchWidgetDemo.flutter_switchWidgetDemo();
+void main() => slideDemo.flutter_slider();
 
 // void main() {
 //   runApp(
