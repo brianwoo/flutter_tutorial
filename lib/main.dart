@@ -16,6 +16,7 @@ import 'package:flutter_tutorial/flutter36_drawer/drawer.dart' as drawerDemo;
 import 'package:flutter_tutorial/flutter37_floatingActionButton/floatingActionButton.dart' as fabDemo;
 import 'package:flutter_tutorial/flutter38_appLifeCycle/appLifeCycle.dart' as appLifeCycleDemo;
 import 'package:flutter_tutorial/flutter39_dateTimePicker/dateTimePicker.dart' as dateTimePickerDemo;
+import 'package:flutter_tutorial/flutter40_simpleDialog/simpleDialog.dart' as simpleDialogDemo;
 
 
 // void main() => flutter23();
@@ -34,7 +35,8 @@ import 'package:flutter_tutorial/flutter39_dateTimePicker/dateTimePicker.dart' a
 //void main() => drawerDemo.flutter_drawer();
 //void main() => fabDemo.flutter_demo();
 //void main() => appLifeCycleDemo.flutter_demo();
-void main() => dateTimePickerDemo.flutter_demo();
+//void main() => dateTimePickerDemo.flutter_demo();
+void main() => simpleDialogDemo.flutter_demo();
 
 // void main() {
 //   runApp(
