@@ -8,6 +8,7 @@ import 'package:flutter_tutorial/flutter27_alert_dialog/alertDialog.dart';
 import 'package:flutter_tutorial/flutter28_textfield/textfield.dart' as textFieldDemo;
 import 'package:flutter_tutorial/flutter29_checkbox/checkbox.dart' as checkboxDemo;
 import 'package:flutter_tutorial/flutter30_radio/radio.dart' as radioDemo;
+import 'package:flutter_tutorial/flutter31_switch_widget/switchWidget.dart' as switchWidgetDemo;
 
 
 // void main() => flutter23();
@@ -17,7 +18,8 @@ import 'package:flutter_tutorial/flutter30_radio/radio.dart' as radioDemo;
 // void main() => flutter_AlertDialog();
 // void main() => textFieldDemo.flutter_TextField();
 // void main() => checkboxDemo.flutter_checkbox();
-void main() => radioDemo.flutter_radio();
+// void main() => radioDemo.flutter_radio();
+void main() => switchWidgetDemo.flutter_switchWidgetDemo();
 
 // void main() {
 //   runApp(
