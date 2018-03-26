@@ -14,6 +14,7 @@ import 'package:flutter_tutorial/flutter33_dropdown/dropdown.dart' as dropdownDe
 import 'package:flutter_tutorial/flutter35_live_template/liveTemplate.dart' as liveTemplateDemo;
 import 'package:flutter_tutorial/flutter36_drawer/drawer.dart' as drawerDemo;
 import 'package:flutter_tutorial/flutter37_floatingActionButton/floatingActionButton.dart' as fabDemo;
+import 'package:flutter_tutorial/flutter38_appLifeCycle/appLifeCycle.dart' as appLifeCycleDemo;
 
 
 // void main() => flutter23();
@@ -30,7 +31,8 @@ import 'package:flutter_tutorial/flutter37_floatingActionButton/floatingActionBu
 //void main() => listviewDemo.flutter_listview();
 //void main() => liveTemplateDemo.flutter_liveTemplateDemo();
 //void main() => drawerDemo.flutter_drawer();
-void main() => fabDemo.flutter_demo();
+//void main() => fabDemo.flutter_demo();
+void main() => appLifeCycleDemo.flutter_demo();
 
 // void main() {
 //   runApp(
